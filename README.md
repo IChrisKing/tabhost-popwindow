@@ -1,3 +1,5 @@
+ ![image](https://github.com/IChrisKing/tabhost-popwindow/blob/master/Screenshot_20160802-015402.png)
+
 actionbar on the top,include name of application and back button
 two tabs,each has one listview
 show popwindow when click menu button in listview
