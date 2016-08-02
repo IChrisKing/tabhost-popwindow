@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+     ><!-- 空间位置为中间 -->
+    <ImageView android:id="@+id/lv_item_icon"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"/>
+
+<!--     <LinearLayout -->
+<!-- 	    android:layout_width="wrap_content" -->
+<!-- 	    android:layout_height="fill_parent" -->
+<!-- 	    android:layout_marginLeft="10dp" -->
+<!-- 	    android:orientation="vertical" -->
+<!-- 	    android:gravity="center_vertical" -->
+<!--      	> -->
+		<TextView android:id="@+id/lv_item_appname"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@id/lv_item_icon"
+	    android:layout_marginLeft="10dp"
+	    android:layout_centerVertical="true"
+	    android:layout_gravity="center_vertical"
+	    android:gravity="center_vertical"
+	    android:textSize="18sp"
+	    android:textColor="#000"/>
+<!-- 		<TextView android:id="@+id/lv_item_pakagename" -->
+<!-- 	    android:layout_width="wrap_content" -->
+<!-- 	    android:layout_height="wrap_content" -->
+<!-- 	    android:gravity="right" -->
+<!-- 	    android:textSize="12sp"  -->
+<!-- 	    android:textColor="#000"/> -->
+<!-- 	</LinearLayout> -->
+	
+<!--     <TextView android:id="@+id/lv_item_uid" -->
+<!-- 	    android:layout_width="fill_parent" -->
+<!-- 	    android:layout_height="wrap_content" -->
+<!-- 	    android:layout_gravity="right" -->
+<!-- 	    android:gravity="right" -->
+<!-- 	    android:textColorHighlight="#00ff00" -->
+<!-- 	    android:textSize="12sp" -->
+<!-- 	    android:textColor="#000"/> -->
+
+			<ImageView
+			    android:id="@+id/lv_item_menu"
+			    android:layout_width="30dp"
+			    android:layout_height="21dp"
+			    android:layout_centerVertical="true"
+			    android:layout_alignParentRight="true"
+			    android:layout_marginRight="8dp"
+			    android:src="@drawable/menu_bt"/>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">应用管理</string>
+    <string name="action_settings">设置</string>
+    
+    <string name="uninstall">卸载</string>
+    <string name="uninstall_normal">普通区卸载</string>
+    <string name="uninstall_owner">隐私区卸载</string>
+    <string name="uninstall_all">双区卸载</string>
+    <string name="move_to_normal">移动到普通区</string>
+    <string name="move_to_owner">移动到隐私区</string>
+    <string name="install_all">双区安装</string>
+    <string name="uninstalling">正在卸载......</string>
+	<string name="moving">正在移动......</string>
+	<string name="uninstalling_all">正在双区卸载......</string>
+	<string name="installing_all">正在双区安装......</string>
+	<string name="both">双</string>
+	<string name="owner">私密区</string>
+	<string name="normal">普通区</string>
+</resources>
