@@ -19,7 +19,9 @@ import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.Window;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TabHost;
@@ -40,6 +42,7 @@ public class MainActivity extends Activity {
 	private ProgressDialog progressDialog;
 	private List<ApplicationInfo> nor_appInfos = new ArrayList<ApplicationInfo>();
 	private List<ApplicationInfo> sec_appInfos = new ArrayList<ApplicationInfo>();
+	private ImageView back_bt;
 //	private AppInfoManager appInfoManager;
 //	private InstallHelper installHelper;
 	protected QuickAction mItemClickQuickAction = null;
@@ -170,6 +173,16 @@ public class MainActivity extends Activity {
     	
     	nor_lv = (ListView) findViewById(R.id.nor_zone_apps);
     	sec_lv = (ListView) findViewById(R.id.owner_zone_apps);
+    	
+    	back_bt = (ImageView) findViewById(R.id.back_bt);
+    	back_bt.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				MainActivity.this.finish();
+			}
+		});
     	
 //        nor_lvAdapter = new ListViewAdapter(XAppManagerActivity.this, mHandler, nor_appInfos, false);
 ////        nor_lv.setAdapter(nor_lvAdapter);
